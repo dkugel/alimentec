@@ -15,31 +15,62 @@ h1{
 .paral p {
     font-size: 18px;
     color:#000;
-    text-align: justify;    
+    text-align: justify;  
+    line-height: 23px !important;
+    letter-spacing: 0.04em;
+    margin: 0 0 10px;  
 }
     
     /* Heading for Parallax Section */ 
 .paral h1 {
     color:#dd6912;
+    font-size: 28px;
+    text-align: justify;
+}
+.sub-title{
+    color:#dd6912;
     font-size: 26px;
     text-align: justify;
+    padding: 0rem 13rem;
+}
+/*Color layer*/
+.layer {
+    background-color: rgba(246, 247, 247, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.layer h1{
+    padding: 4rem 13rem;
+}
+.layer p{
+    padding: 0rem 13rem;
 }
 /* Image for Parallax Section */ 
 .paralsec {
     background-image: url("../images/header.jpg");
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: 0 0;    
 }
 
 .paralsec1 {
     background-image: url("../images/1-IMG_4015.JPG");
     background-position: 0 bottom;
+    position: relative;
 }
 
 .paralsec2 {
-    background-image: url("https://img.webnots.com/2015/11/parallax2.jpg");
+    background-image: url("../images/2-IMG_3223.JPG");
 }
 
+.paralsec3 {
+    background-image: url("../images/3-IMG_2577.jpg");
+    background-position: 0 bottom;
+    position: relative;
+}
 /* Add more images for more sections */
 
 .display-3{
@@ -49,7 +80,7 @@ h1{
 /* Remove Bottom Margin from Jumbotron */
 .jumbotron{
     margin-bottom: 0;
-    padding: 4rem 19rem;
+    padding: 4rem 13rem;
 }
 
 /* Footer */
